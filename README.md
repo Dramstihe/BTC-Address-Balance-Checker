@@ -8,6 +8,12 @@
 <li>Run the script using python3</li>
 </ol>
 <p>The script uses the <code>requests</code> library to make a GET request to the Blockchain.info API and retrieve the balance of each address. It then parses the JSON response and retrieves the final_balance field for each address. If the address is not found or an error occurs, the script will print an error message and continue to the next address.</p>
-<p>You can customize the script to suit your needs by changing the threshold for a "positive" balance or by adding additional error handling. </p>
+<p>You can customize the script to suit your needs by changing the threshold for a "positive" balance or by adding additional error handling.</p>
+<h2 style="text-align: center;">💻Requirements and Instructions💻</h2>
+<ul>
+    <li>Python 3.x</li>
+    <li>requests library (use pip to install)</li>
+    <li>On Windows: open command prompt and navigate to the script directory, then run "python scriptname.py"</li>
+    <li>On Linux: open terminal, navigate to the script directory, then run "python3 scriptname.py"</li>
+</ul>
 <p style="text-align: center;">💻Happy checking!💻</p>
-
